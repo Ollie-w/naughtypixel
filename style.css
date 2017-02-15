@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+html {
+  font-size: 19px;
+  color: #424243;
+  font-family: helvetica, arial;
+  line-height: 1.5;
+}
+
+* {
+  font-family: inherit;
+}
+
+
+h1, h2, h3, h4 {
+  line-height: 1.2;
+  color: #1379FE;
+  font-weight: 100;
+}
+
+.naughty {
+  font-size: 3rem;
+    color: #1379FE;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1; }
+}
+
+.fullheight {
+height: 100vh;
+margin-left: 10vw;
+padding-top: 35vh;
+animation-name: appear;
+animation-duration: 1.5s;
+animation-timing-function: ease-in;
+max-width: 75ch;
+}
+
+p {
+  margin-top: .5em;
+}
+
+  h1 {
+   display: inline;
+  color: rgb(169, 169, 169);
+  font-size: 2.5rem;
+}
+
+p, label {
+  max-width: 60ch;
+  font-family: helvetica, arial;
+font-weight: 300;
+font-size: 1.1em;
+}
+
+h3 {
+ font-size: 1.6rem;
+ text-transform: uppercase;
+}
+
+.location, .adaptive, .secure, .seo, .speed, .design, .copy, .conversion {
+margin-top: 3em;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 60ch;
+  
+}
+
+h3, p {
+  text-align: left;
+}
+
+.contact {
+  color: white;
+  background-color: #1379FE;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.contact h3 {
+  color: white;
+}
+
+.bgcolor {
+  padding-top: 3em;
+  padding-bottom: 3em;
+        background-image: radial-gradient(circle at bottom right, white, rgba(200, 200, 200, 0)), radial-gradient(circle at top left, white, rgb(215, 215, 215), rgba(200, 200, 200, 0));
+}
+
+form {
+  background-color: white;
+  color: #424243;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+input, textarea {
+  display: block;
+}
+
+
+.contact div {
+  margin: 0 auto;
+  max-width: 60ch;
+  text-align: center;
+}
+
+
+.contact_logo {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.email {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-top: 0;
+  text-shadow: 0.5px 0.5px 1px rgba(0,0,0,.4);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: solid;
+  display: inline-block;
+}
+
+abbr {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+@media (max-width: 690px) {
+.center {
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+.email {
+  font-size: 1em;
+}
+
+}
+
+@media (max-device-width: 480px) {
+  html {
+  font-size: 20px;
+  }
+  
+ .naughty {
+  font-size: 2rem;
+ }
+
+h1 {
+  font-size: 1.6rem;
+}
+
+
+.fullheight {
+margin-left: 4vw;
+padding-top: 25vh;
+}
+
+
+h3 {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+
+
+p {
+  font-size: .9em;
+}
+
+}
